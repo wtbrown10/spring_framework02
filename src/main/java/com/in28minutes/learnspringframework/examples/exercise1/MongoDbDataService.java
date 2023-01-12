@@ -1,4 +1,4 @@
-package com.in28minutes.learnspringframework.examples.exercise;
+package com.in28minutes.learnspringframework.examples.exercise1;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

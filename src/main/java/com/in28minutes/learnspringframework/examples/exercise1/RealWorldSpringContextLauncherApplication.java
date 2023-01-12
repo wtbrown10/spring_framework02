@@ -1,4 +1,4 @@
-package com.in28minutes.learnspringframework.examples.exercise;
+package com.in28minutes.learnspringframework.examples.exercise1;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
@@ -8,12 +8,12 @@ import java.util.Arrays;
 
 @Configuration
 @ComponentScan
-public class LauncherApplication {
+public class RealWorldSpringContextLauncherApplication {
 
     public static void main(String[] args) {
 
     try(var context = new AnnotationConfigApplicationContext
-        (LauncherApplication.class)) {
+        (RealWorldSpringContextLauncherApplication.class)) {
 
         Arrays.stream(context.getBeanDefinitionNames())
                 .forEach(System.out::println);
